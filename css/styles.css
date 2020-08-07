@@ -46,10 +46,16 @@ body {
 /* showcase image */
 .row .col-lg-6 img {
   width: 60%;
-  transform: rotate(30deg);
+  transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Features */
+
+#features {
+  background: white;
+  position: relative;
+}
 
 #features .row {
   padding: 4rem 0;
@@ -113,4 +119,38 @@ body {
 #press img {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 7% 15%;
+}
+
+#pricing .row {
+  padding: 3% 2%;
+}
+
+#pricing .card {
+  text-align: center;
+  height: 380px;
+}
+
+#pricing .card-1 .btn,
+#pricing .card-2 .btn {
+  margin-top: 3.4rem;
+}
+
+.btn-pink {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.btn-outline-pink {
+  background-color: white;
+  border-color: #ff4c68;
+}
+
+.btn-outline-pink:hover {
+  background: #ff4c68;
+  color: white;
 }
