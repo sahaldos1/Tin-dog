@@ -160,6 +160,39 @@ body {
   color: white;
 }
 
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  color: #afafaf;
+  padding: 3% 15%;
+}
+
+#footer .fab,
+#footer .fas {
+  margin: 1rem 1rem;
+}
+
+#footer .fab:hover,
+#footer .fas:hover {
+  color: #ff4c68;
+}
+
 /* Mobile Screens */
 @media (max-width: 1029px) {
   /* showcase image */
