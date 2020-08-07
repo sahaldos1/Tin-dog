@@ -12,6 +12,10 @@ body {
   padding: 3% 15%;
 }
 
+.fluid-1 {
+  padding-bottom: 7%;
+}
+
 #title .col-lg-6 h1 {
   font-weight: bolder;
   font-size: 3.5rem;
@@ -48,6 +52,7 @@ body {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
+  right: 30%;
 }
 
 /* Features */
@@ -153,4 +158,18 @@ body {
 .btn-outline-pink:hover {
   background: #ff4c68;
   color: white;
+}
+
+/* Mobile Screens */
+@media (max-width: 1029px) {
+  /* showcase image */
+  .row .col-lg-6 img {
+    width: 60%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
